@@ -32,4 +32,9 @@ public class RollerCoasterTest {
         assertEquals(12, rollerCoaster.getminAge());
     }
 
+    @Test
+    public void rideGoal() {
+        assertEquals("This ride will turn your life upside down!",
+                rollerCoaster.rideGoal("turn your life upside down!"));
+    }
 }

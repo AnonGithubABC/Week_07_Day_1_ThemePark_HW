@@ -28,4 +28,6 @@ public abstract class Ride {
         return this.minAge;
     }
 
+    public abstract String rideGoal(String goal);
+
 }

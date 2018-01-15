@@ -31,4 +31,9 @@ public class DodgemsTest {
     public void hasMinAge() {
         assertEquals(8, dodgems.getminAge());
     }
+
+    @Test
+    public void rideGoal() {
+        assertEquals("This ride will knock your fillings out!", dodgems.rideGoal("knock your fillings out!"));
+    }
 }

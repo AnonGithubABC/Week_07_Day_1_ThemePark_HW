@@ -31,4 +31,9 @@ public class GhostTrainTest {
     public void hasMinAge() {
         assertEquals(10, ghostTrain.getminAge());
     }
+
+    @Test
+    public void rideGoal() {
+        assertEquals("This ride will scare you to death!", ghostTrain.rideGoal("scare you to death!"));
+    }
 }
