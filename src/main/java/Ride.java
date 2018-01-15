@@ -21,7 +21,7 @@ public abstract class Ride {
     }
 
     public double getmaxHeight() {
-        return this.minHeight;
+        return this.maxHeight;
     }
 
     public int getminAge() {

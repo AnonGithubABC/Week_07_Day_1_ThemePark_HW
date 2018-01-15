@@ -24,7 +24,7 @@ public class RollerCoasterTest {
 
     @Test
     public void hasMaxHeight() {
-        assertEquals(1.30, rollerCoaster.getmaxHeight(), 0.01);
+        assertEquals(2.30, rollerCoaster.getmaxHeight(), 0.01);
     }
 
     @Test
