@@ -9,7 +9,7 @@ public class RollerCoasterTest {
 
     @Before
     public void before(){
-        rollerCoaster = new RollerCoaster(20, 1.30, 2.30);
+        rollerCoaster = new RollerCoaster(20, 1.30, 2.30, 12);
     }
 
     @Test
@@ -25,6 +25,11 @@ public class RollerCoasterTest {
     @Test
     public void hasMaxHeight() {
         assertEquals(1.30, rollerCoaster.getmaxHeight(), 0.01);
+    }
+
+    @Test
+    public void hasMinAge() {
+        assertEquals(12, rollerCoaster.getminAge());
     }
 
 }
