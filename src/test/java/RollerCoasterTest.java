@@ -17,4 +17,14 @@ public class RollerCoasterTest {
         assertEquals(20, rollerCoaster.getridePrice());
     }
 
+    @Test
+    public void hasMinHeight() {
+        assertEquals(1.30, rollerCoaster.getminHeight(), 0.01);
+    }
+
+    @Test
+    public void hasMaxHeight() {
+        assertEquals(1.30, rollerCoaster.getmaxHeight(), 0.01);
+    }
+
 }
