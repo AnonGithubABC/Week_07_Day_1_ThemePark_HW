@@ -9,13 +9,19 @@ public class CustomerTest {
 
     @Before
     public void before(){
-        customer = new Customer(5, 1.90, 18);
+        customer = new Customer(21, 1.90, 18);
     }
 
     @Test
     public void customerHasMoney(){
-        assertEquals(5, customer.getMoney());
+        assertEquals(21, customer.getMoney());
     }
+
+    @Test
+    public void customerCanRideRollerCoaster(){
+        assertEquals("Yes, they can ride", customer.canRideRollerCoaster());
+    }
+
 
 
 

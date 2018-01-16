@@ -15,4 +15,9 @@ public class Customer {
     public int getMoney() {
         return this.money;
     }
+
+    public String canRideRollerCoaster() {
+        if (this.money >= 20);
+        return "Yes, they can ride";
+    }
 }
